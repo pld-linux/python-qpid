@@ -9,7 +9,7 @@ Source0:	http://www.apache.org/dist/qpid/%{version}/qpid-python-%{version}.tar.g
 # Source0-md5:	f9099cfdc28b3583de0a2ed7089ae559
 URL:		http://qpid.apache.org/
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-saslwrapper
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
